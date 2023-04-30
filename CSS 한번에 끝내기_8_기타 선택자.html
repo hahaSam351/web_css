@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div::first-letter { font-size: 30px; }
+            div::first-line { color: royalblue; }
+            div::selection { background: yellow; color: red; }
+        </style>
+    </head>
+    <body>
+        <h1>기타 선택자 태그</h1>
+        <table border="1">
+            <caption>기타 선택자</caption>
+            <tr>
+                <th>종류</th>
+                <th>설명</th>
+            </tr>
+            <tr>
+                <td>E:lang(ko)</td>
+                <td>lang 속성 값이 ko 인 태그 선택</td>
+            </tr>
+            <tr>
+                <td>E:not(S)</td>
+                <td>S가 아닌 E 태그 선택</td>
+            </tr>
+            <tr>
+                <td>E:target</td>
+                <td>E의 url 요청 시 선택</td>
+            </tr>
+            <tr>
+                <td>E::first-line</td>
+                <td>E 태그의 첫번째 줄 선택</td>
+            </tr>
+            <tr>
+                <td>E::first-letter</td>
+                <td>E 태그의 첫번째 문자 선택</td>
+            </tr>
+            <tr>
+                <td>E::before</td>
+                <td>E 태그의 시작 지점 태그 선택</td>
+            </tr>
+            <tr>
+                <td>E::after</td>
+                <td>E 태그의 끝 지점 태그 선택</td>
+            </tr>
+        </table>
+        
+        <hr>
+        <div>
+            드래그 해보세요<br>
+            Sam<br>
+            Sam's office
+        </div>
+    </body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            a:link { color: blue; }
+            a:visited { color: purple; }
+            a:hover { color: red; }
+            a:active { color: black; }
+        
+            div.d1:hover { background-color: yellow; }
+        </style>
+    </head>
+    <body>
+        <h1>반응 선택자 태그</h1>
+        <table border="1">
+            <caption>반응 선택자</caption>
+            <tr>
+                <th>종류</th>
+                <th>설명</th>
+            </tr>
+            <tr>
+                <td>:link</td>
+                <td>방문하지 않은 링크</td>
+            </tr>
+            <tr>
+                <td>:visited</td>
+                <td>방문했던 링크</td>
+            </tr>
+            <tr>
+                <td>:active</td>
+                <td>클릭하는 순간</td>
+            </tr>
+            <tr>
+                <td>:hover</td>
+                <td>마우스를 올려놓는 순간</td>
+            </tr>
+        </table>
+
+        
+        <hr>
+        <a href="www.google.com">구글 링크</a>
+        <div class="d1">
+            <p>div영역 // 마우스 커서를 올려놓아보세요 </p>
+            <p>class=d1 // 마우스 커서를 올려놓아보세요</p>
+        </div>
+    </body>
+</html>
